@@ -1,6 +1,14 @@
-.App {
+.app {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #22303c;  
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +43,103 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a252f;  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;  
+}
+
+
+
+.app-title {
+  font-size: 32px;
+  color: #ecf0f1;  
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.city-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #ecf0f1;  
+}
+
+.fetch-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fetch-btn:hover {
+  background-color: #2980b9;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.weather-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.city-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ecf0f1;
+}
+
+.weather-description {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ecf0f1;
+}
+
+.weather-icon {
+  width: 100px;  
+  height: 100px;
+  margin-top: 10px;
+}
+
+.weather-stats p,
+.additional-info p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #ecf0f1;  
+}
+
+.weather-stats strong,
+.additional-info strong {
+  color: #3498db;
+}
+
+.additional-info {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #bdc3c7;  
 }
